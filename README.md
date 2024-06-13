@@ -5,20 +5,26 @@
    ```bash
    python3 -m venv venv
    source venv/bin/activate
+   ```
 
-Install the package.
 
-```bash
-pip install -e .
-```
+2. **Installation**
 
-Launch Annotate with an example [anndata](https://anndata.readthedocs.io/en/latest/) file
+   Install the package.
 
-```bash
-cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
-```
+   ```bash
+   pip install -e .
+   ```
 
-2. **Installation errors**
+3. **Installation**
+
+   Launch Annotate with an example [anndata](https://anndata.readthedocs.io/en/latest/) file
+
+   ```bash
+   cellxgene launch https://cellxgene-example-data.czi.technology/pbmc3k.h5ad
+   ```
+
+### Installation errors
 
 File "/home/pribeiro/miniconda3/lib/python3.12/site-packages/flatbuffers/compat.py", line 19, in <module>
     import imp
